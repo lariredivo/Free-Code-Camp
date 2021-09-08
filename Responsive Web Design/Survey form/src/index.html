@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>Post event Survey Form</title>
+</head>
+<body>
+  <main>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking time to help us improve the next events!</p>
+    <form id="survey-form"> 
+      
+      <div class="form-group">
+      <label for="name">Enter your name</label><br>
+  <input type="text" id="name-label" name="name" placeholder="Name"><br>
+       </div>
+      
+      <div class="form-group">
+      <label for="email">Enter your email</label><br>
+  <input type="email" id="email-label" name="email" placeholder="Email"><br>
+      </div>
+      
+      <div class="form-group">
+      <label for="age">How old are you?</label><br>
+  <input type="number-label" id="age" name="age" placeholder="Age" min="18" max="130"><br>
+     </div>
+     
+      <div class="form-group">
+      <label for="rate-event">Overall, how would you rate the event?</label><br>
+      <select name="rate-event" id="dropdown">
+        <option value="" disabled selected> Select your option</option>
+        <option value="Excellent">Excellent</option>
+        <option value="Good">Good</option>
+        <option value="Fair">Fair</option>
+        <option value="Poor">Poor</option>
+      </select></br>
+      </div>
+      
+    <div class="form-group">
+       <label for="radio">How organized was the event?</label><br>
+    <input type="radio" id="extremely" name="extremely" value="Extremely">
+    <label for="extremely">Extremely organized</label></br>
+  
+    <input type="radio" id="very" name="very" value="Very">
+    <label for="very"> Very organized</label></br>
+  
+    <input type="radio" id="somewhat" name="somewhat" value="Somewhat">
+    <label for="somewhat"> Somewhat organized</label></br>
+
+    <input type="radio" id="not-so" name="not-so" value="Not-so">
+    <label for="not-so"> Not so organized</label></br>
+
+    <input type="radio" id="not-all" name="not-all" value="Not-all">
+    <label for="not-all"> Not all organized</label></br>
+</div>
+    
+<div class="form-group">
+<label for="checkbox"> What was your favorites parts of the event?</label></br>
+     <input type="checkbox" id="round-table" name="round-table" value="round-table">
+     <label for="round-table"> Round table discussion</label></br>
+
+      <input type="checkbox" id="poster" name="poster" value="poster">
+      <label for="poster"> Poster presentation</label></br>
+
+      <input type="checkbox" id="course" name="course" value="course">
+      <label for="course"> Courses</label></br>
+
+      <input type="checkbox" id="coffee" name="coffee" value="coffee">
+      <label for="coffee">Coffee break</label></br>
+</div>
+
+<div class="form-group">  
+<label for="comments">Any comments or suggestions?</label></br>
+ <textarea id="comments" name="comments" rows="5" cols="55" placeholder="Enter your comment here..."></textarea>
+</div>
+
+  <button  class="button" type="submit" id="submit"> Submit</button>
+    </form>
+  </main>
+  
+</body>
+</html>

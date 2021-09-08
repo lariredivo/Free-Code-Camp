@@ -1,0 +1,20 @@
+body {
+  background: #EEEEEE;
+}
+#img-div{
+  text-align: center;
+  background: #fff;
+}
+#title{
+  text-align: center;
+}
+#tribute-header{
+  text-align: center;
+}
+#tribute-info {
+  margin: 0 0 50px;
+  padding: 0 0 0 40px;
+}
+#tribute-info li {
+  padding: 10px;
+}
